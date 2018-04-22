@@ -1,0 +1,13 @@
+.th-hello {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .th-hello__title {
+    font-size: 36px;
+  }
+  .th-hello__message {
+    font-size: 24px;
+  }
+}
