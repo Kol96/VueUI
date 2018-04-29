@@ -1,7 +1,7 @@
 .DS_Store
 node_modules/
 /lib/
-/examples/dist/
+/docs/dist/
 packages/**/lib
 npm-debug.log*
 yarn-debug.log*
