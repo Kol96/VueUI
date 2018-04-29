@@ -1,6 +1,6 @@
-# thinkhome-ui
+# vueui-ui
 
-> A Component Library for ThinkHome
+> A Component Library for vueui
 
 ## Build Setup
 

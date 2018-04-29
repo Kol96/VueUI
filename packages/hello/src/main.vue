@@ -1,18 +1,18 @@
 <template>
-  <div class="th-hello">
-      <h2 class="th-hello__title">ThinkHome Components Library</h2>
-      <p class="th-hello__message">Hello {{ message }}!</p>
+  <div class="v-hello">
+      <h2 class="v-hello__title">Vue Components Library</h2>
+      <p class="v-hello__message">Hello {{ message }}!</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'ThHello',
+  name: 'VHello',
 
   props: {
     message: {
       type: String,
-      default: 'ThinkHome'
+      default: 'VueUI'
     }
   }
 }

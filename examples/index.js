@@ -3,9 +3,9 @@ import App from './App'
 import router from './router.config'
 
 // 完整引用
-import ThinkHome from '@/index.js'
+import VueUI from '@/index.js'
 import 'packages/theme-chalk/src/index.scss'
-Vue.use(ThinkHome)
+Vue.use(VueUI)
 // 单独引用
 // import { Hello } from '@/index.js'
 // Vue.use(Hello)

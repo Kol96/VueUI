@@ -1,14 +1,14 @@
 {
-  "name": "thinkhome-theme-chalk",
+  "name": "vueui-theme-chalk",
   "version": "1.0.0",
-  "description": "ThinkHome component chalk theme.",
+  "description": "vueui component chalk theme.",
   "main": "lib/index.css",
   "style": "lib/index.css",
   "files": ["lib", "src"],
   "scripts": {
     "build": "gulp build"
   },
-  "keywords": ["thinkhome", "theme"],
+  "keywords": ["vueui", "theme"],
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",

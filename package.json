@@ -1,8 +1,8 @@
 {
-  "name": "thinkhome-ui",
+  "name": "vue-ui",
   "version": "1.0.0",
   "description": "A Component Library for ThinkHome",
-  "main": "lib/thinkhome.js",
+  "main": "lib/vueui.js",
   "files": ["lib", "src", "packages"],
   "private": true,
   "scripts": {
@@ -18,7 +18,7 @@
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit"
   },
-  "keywords": ["thinkhome", "vue", "components"],
+  "keywords": ["vueui", "vue", "components"],
   "license": "MIT",
   "dependencies": {
     "vue": "^2.5.2",

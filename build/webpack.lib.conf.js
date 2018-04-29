@@ -24,8 +24,8 @@ const webpackConfig = merge(baseWebpackConfig, {
   devtool: config.build.productionSourceMap ? config.build.devtool : false,
   output: {
     path: path.join(__dirname, '../lib'),
-    filename: 'thinkhome.js',
-    library: 'thinkhome',
+    filename: 'vueui.js',
+    library: 'vueui',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
