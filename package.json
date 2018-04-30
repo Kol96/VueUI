@@ -7,11 +7,11 @@
   "private": true,
   "scripts": {
     "bootstrap": "yarn || npm i",
-    "build:doc": "cross-env NODE_ENV=production webpack --progress --hide-modules --config build/webpack.doc.conf.js",
+    "build:doc": "vuepress build docs",
     "build:lib": "cross-env NODE_ENV=production webpack --progress --hide-modules --config build/webpack.component.conf.js",
     "build:theme": "gulp build --gulpfile packages/theme-chalk/gulpfile.js && cp-cli packages/theme-chalk/lib lib/theme-chalk",
     "clean": "rimraf lib && rimraf packages/*/lib && rimraf docs/dist",
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js"
+    "dev": "vuepress dev docs"
   },
   "keywords": ["vueui", "vue", "components"],
   "license": "MIT",
@@ -74,6 +74,7 @@
     "vue-markdown-loader": "1",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.2",
+    "vuepress": "^0.8.4",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-server": "^2.9.1",

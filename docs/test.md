@@ -1,3 +1,8 @@
+# Test
+
+<input v-model="message"/>
+<v-hello :message="message"></v-hello>
+
 <script>
   export default {
     data() {
@@ -8,13 +13,7 @@
   }
 </script>
 
-## Test
-
 ### v-hello 组件
-
-测试组件
-
-::: demo 通过设置 message 显示不同信息
 
 ```html
 <template>
@@ -32,5 +31,3 @@
   }
 </script>
 ```
-
-:::
