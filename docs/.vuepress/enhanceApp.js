@@ -1,4 +1,5 @@
-import VueUI from '@/index.js'
+import VueUI from '@/src/index.js'
+import '@/packages/theme-chalk/src/index.scss'
 
 export default ({
   Vue, // VuePress 正在使用的 Vue 构造函数
